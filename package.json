@@ -1,0 +1,19 @@
+{
+  "name": "script",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "md5": "^2.0.0",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-3": "^6.5.0"
+  },
+  "scripts": {
+    "lint": "eslint src tools test",
+    "build": "babel-node --eval \"require('./tools/build')().catch(err => console.log(err.stack))\"",
+    "start": "babel-node city.js"
+  }
+}
