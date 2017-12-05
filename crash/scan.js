@@ -27,14 +27,14 @@ function readLines(input, func) {
     while (index > -1) {
       var line = remaining.substring(0, index);
       remaining = remaining.substring(index + 1);
-      func(line);
+      parseLine(line);
       index = remaining.indexOf('\n');
     }
   });
 
   input.on('end', function() {
     if (remaining.length > 0) {
-      func(remaining);
+      parseLine(remaining);
     }
     sort(viewArray);
 
@@ -43,27 +43,40 @@ function readLines(input, func) {
 
 
 
-function func(data) {
-  var views = JSON.parse(data).crashView;
+function parseLine(data) {
+  var arr =  data.split("\t");
+  var crashViewText = arr[arr.length - 1]
+  
+  var views = JSON.parse(crashViewText).crashView;
   views = views.split(',')
   console.log('Line: ' + typeof views);
+  var lastView = views[views.length - 1]
+
+  var element = lastView.replace(/\[|]| /g, '');
+  // console.log(element);
+
+  if(viewArray[element] === undefined){
+    viewArray[element] = 0;
+  }
+  viewArray[element] = viewArray[element] + 1;
   
-  views.forEach(function(ele) {
-    var element = ele.replace(/\[|]| /g, '');
-    // console.log(element);
-    if(viewArray[element] === undefined){
-      viewArray[element] = 0;
-    }
-    viewArray[element] = viewArray[element] + 1;
-    // var viewArrayKeys = viewArray.keys();
-    // var idx = viewArrayKeys.indexOf(element)
-    // if(idx > -1) {
-    //   viewArray[element] += 1;
-    // }
-  }, this);
+  // ===  all View ====
+  // views.forEach(function(ele) {
+  //   var element = ele.replace(/\[|]| /g, '');
+  //   // console.log(element);
+  //   if(viewArray[element] === undefined){
+  //     viewArray[element] = 0;
+  //   }
+  //   viewArray[element] = viewArray[element] + 1;
+  //   // var viewArrayKeys = viewArray.keys();
+  //   // var idx = viewArrayKeys.indexOf(element)
+  //   // if(idx > -1) {
+  //   //   viewArray[element] += 1;
+  //   // }
+  // }, this);
 }
 
 
 
 var input = fs.createReadStream('./sources.txt');
-readLines(input, func);
+readLines(input, parseLine);
