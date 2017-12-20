@@ -1,5 +1,3 @@
-// https://crash.sankuai.com/api/crash/channel?project=waimai_mfe_bee_android&type=crash&includes=optional_channel&size=200&start=2017-12-20 00:00:00&end=2017-12-20 23:59:59&eq=appVersion,1.0.94
-
 // https://crash.sankuai.com/api/crash/channel?project=waimai_mfe_bee_android&type=crash&includes=optional_channel&size=200&eq=appVersion,1.0.94&start=2017-12-20 00:00:00&end=2017-12-20 23:59:59
 
 
@@ -15,6 +13,39 @@ var cookie = request.cookie('_lxsdk=15dbc362d80c8-0a9870ee6d92cc-30667808-13c680
 
 j.setCookie(cookie, 'https://crash.sankuai.com');
 
+/**
+ * 版本信息
+ * @param {*} args 
+ */
+var getVersionByPlatform = function(args) {
+  console.log(args.platform)
+  var filterUrl = `https://crash.sankuai.com/api/filter?project=waimai_mfe_bee_${args.platform}&type=crash&page=index`
+  return new Promise( resolve => {
+    request({url: filterUrl, jar: j}, function (error, response, body) {
+      var res = JSON.parse(body)
+      var versions = res.data.filter(item => item.filter === 'appVersion')
+      console.log(versions);
+      resolve(versions[0].options)
+    });
+  }, reject => {
+
+  })
+  
+}
+
+/**
+ * 最近3天
+ */
+function getRecentDays(days) {
+  let res = [];
+
+  for (let index = 0; index < days; index++) {
+    let date = moment().subtract(index, 'day');
+    res.push(date.format('YYYY-MM-DD'))
+  }
+  return res 
+};
+
 
 inquirer.prompt([
   {
@@ -27,29 +58,79 @@ inquirer.prompt([
   {
     type: 'list',
     name: 'version',
-    choices: ['1.0.94', '1.0.93','1.0.92','1.0.91','1.0.90'],
+    choices: getVersionByPlatform,
     message: '请选择版本:',
     default: 0
   },
   {
     type: 'list',
-    name: 'date',
-    choices: ['2017-12-20', '2017-12-19'],
-    message: '请选择Crash发生日期:',
+    name: 'startdate',
+    choices: getRecentDays(10),
+    message: '请选择Crash开始日期:',
+    default: 0
+  },
+  {
+    type: 'list',
+    name: 'enddate',
+    choices: getRecentDays(4),
+    message: '请选择Crash结束日期:',
+    default: 0
+  },
+  {
+    type: 'list',
+    name: 'brief',
+    choices: ['yes','no'],
+    message: '是否显示简报:',
     default: 0
   },
 ]).then((answers) => {
   console.log('结果为:')
-  console.log(answers)
 
-  var countUrl = makeCountUrl(answers)
-  console.log(countUrl)
+  var countUrl = makeCountUrl(answers);
+  var briefUrl;
+  if( answers.platform === 'android') {
+    briefUrl = makeBriefAndroidUrl(answers);
+  } else {
+    briefUrl = makeBriefUrl(answers);
+  }
+  // console.log(countUrl)
   request({url:countUrl, jar: j}, function (error, response, body) {
-    var res = JSON.parse(body)    
-    // {"total":2,"data":[{"channel":"default","count":2,"per":1,"der":1}]}
-    console.log(`${answers.platform}_${answers.version}_${answers.date} Crash: ${res.total}次`)
+    var res = JSON.parse(body)
+    console.log(`平台: ${answers.platform}\n版本: ${answers.version}\n开始日期: ${answers.startdate}\n结束日期: ${answers.enddate}\nCrash: ${res.total}次`)
   });
+
+  if(answers.brief === 'yes'){
+    console.log(briefUrl);
+    request({url:briefUrl, jar: j}, function (error, response, body) {
+      var res = JSON.parse(body)
+      var result = [];
+      if (answers.platform === 'ios') {
+        for(const prop in res) {
+          result.push({
+            _count: res[prop],
+            message: prop
+          })
+        }
+      } else {
+        result = res
+      }
+
+      // sort by _count
+      result.sort(function (a, b) {
+        return b._count - a._count;
+      });
+
+
+      for(const prop of result) {
+        console.log(`Crash: ${prop.message}\n数量:${prop._count}\n`);      
+      }
+
+    });
+  }
+  
+  
 })
+
 
 
 var makeCountUrl = function(args) {
@@ -58,10 +139,34 @@ var makeCountUrl = function(args) {
   countUrl += "&includes=optional_channel";
   countUrl += "&size=200";
   countUrl += "&eq=appVersion,"+args.version; //版本
-  countUrl += "&start="+args.date+" 00:00:00"; // 开始
-  countUrl += "&end="+args.date+" 23:59:59"  // 截止
+  countUrl += "&start="+args.startdate+" 00:00:00"; // 开始
+  countUrl += "&end="+args.enddate+" 23:59:59"  // 截止
   return countUrl
 }
+
+var makeBriefUrl = function(args) {
+  var briefUrl = "https://crash.sankuai.com/api/crash/aggr?project=waimai_mfe_bee_"+args.platform;
+  briefUrl += "&type=crash";
+  briefUrl += "&includes=message";
+  briefUrl += "&size=25";
+  briefUrl += "&eq=appVersion,"+args.version; //版本
+  briefUrl += "&start="+args.startdate+" 00:00:00"; // 开始
+  briefUrl += "&end="+args.enddate+" 23:59:59"  // 截止
+  return briefUrl
+}
+
+var makeBriefAndroidUrl = function(args) {
+  var briefUrl = "https://crash.sankuai.com/api/crash/android-group-by-hash?project=waimai_mfe_bee_"+args.platform;
+  briefUrl += "&type=crash";
+  briefUrl += "&includes=hash,message";
+  briefUrl += "&size=200";
+  briefUrl += "&eq=appVersion,"+args.version; //版本
+  briefUrl += "&start="+args.startdate+" 00:00:00"; // 开始
+  briefUrl += "&end="+args.enddate+" 23:59:59"  // 截止
+  return briefUrl
+}
+
+
 
 
 
