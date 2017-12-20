@@ -18,13 +18,12 @@ j.setCookie(cookie, 'https://crash.sankuai.com');
  * @param {*} args 
  */
 var getVersionByPlatform = function(args) {
-  console.log(args.platform)
+  // console.log(args.platform)
   var filterUrl = `https://crash.sankuai.com/api/filter?project=waimai_mfe_bee_${args.platform}&type=crash&page=index`
   return new Promise( resolve => {
     request({url: filterUrl, jar: j}, function (error, response, body) {
       var res = JSON.parse(body)
       var versions = res.data.filter(item => item.filter === 'appVersion')
-      console.log(versions);
       resolve(versions[0].options)
     });
   }, reject => {
@@ -80,58 +79,62 @@ inquirer.prompt([
     type: 'list',
     name: 'brief',
     choices: ['yes','no'],
-    message: '是否显示简报:',
+    message: '是否显示详情:',
     default: 0
   },
 ]).then((answers) => {
-  console.log('结果为:')
+  console.log('/*========结果为=========*/')
 
   var countUrl = makeCountUrl(answers);
-  var briefUrl;
-  if( answers.platform === 'android') {
-    briefUrl = makeBriefAndroidUrl(answers);
-  } else {
-    briefUrl = makeBriefUrl(answers);
-  }
+
   // console.log(countUrl)
   request({url:countUrl, jar: j}, function (error, response, body) {
     var res = JSON.parse(body)
     console.log(`平台: ${answers.platform}\n版本: ${answers.version}\n开始日期: ${answers.startdate}\n结束日期: ${answers.enddate}\nCrash: ${res.total}次`)
-  });
+    console.log('/*=========End=========*/')
 
-  if(answers.brief === 'yes'){
-    console.log(briefUrl);
-    request({url:briefUrl, jar: j}, function (error, response, body) {
-      var res = JSON.parse(body)
-      var result = [];
-      if (answers.platform === 'ios') {
-        for(const prop in res) {
-          result.push({
-            _count: res[prop],
-            message: prop
-          })
-        }
+    if(answers.brief === 'yes'){
+      var briefUrl;
+      if( answers.platform === 'android') {
+        briefUrl = makeBriefAndroidUrl(answers);
       } else {
-        result = res
+        briefUrl = makeBriefUrl(answers);
       }
+      showBriefList(briefUrl, answers);      
+    }
+  })
 
-      // sort by _count
-      result.sort(function (a, b) {
-        return b._count - a._count;
-      });
-
-
-      for(const prop of result) {
-        console.log(`Crash: ${prop.message}\n数量:${prop._count}\n`);      
-      }
-
-    });
-  }
-  
   
 })
 
 
+var showBriefList = function(briefUrl, answers) {
+  // console.log(briefUrl);
+  request({url:briefUrl, jar: j}, function (error, response, body) {
+    var res = JSON.parse(body)
+    var result = [];
+    if (answers.platform === 'ios') {
+      for(const prop in res) {
+        result.push({
+          _count: res[prop],
+          message: prop
+        })
+      }
+    } else {
+      result = res
+    }
+
+    // sort by _count
+    result.sort(function (a, b) {
+      return b._count - a._count;
+    });
+
+
+    for(const prop of result) {
+      console.log(`Crash: ${prop.message}\n数量:${prop._count}\n`);      
+    }
+  });
+}
 
 var makeCountUrl = function(args) {
   var countUrl = "https://crash.sankuai.com/api/crash/channel?project=waimai_mfe_bee_"+args.platform;
@@ -167,20 +170,3 @@ var makeBriefAndroidUrl = function(args) {
 }
 
 
-
-
-
-var showList = function (body) {
-  var res = JSON.parse(body)
-  res.forEach(element => {
-    // deviceId
-    // extra 附件信息, 页面view
-    // lastPageTrack 具体崩溃
-    var detailUrl = makeDetailUrl(element.id);
-    var topTwoLine = getTwoLine(element.lastPageTrack)
-    console.log(element.deviceId)    
-    console.log(topTwoLine.join('\n'))
-    console.log('\n')
-    console.log('\n')
-  });
-}
