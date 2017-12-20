@@ -1,0 +1,1593 @@
+https://crash.sankuai.com/api/crash/detail?project=waimai_mfe_bee_android&type=crash&excludes=log,iosLog&size=200&order=-ts&eq=hash,9667dd04146546dba26bbda666b30af0&start=2017-11-05 00:00:00&end=2017-12-04 23:59:59
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 1532
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.RuntimeException: Cannot add a child that doesn't have a YogaNode to a parent without a measure function! (Trying to add a 'ReactVirtualTextShadowNode' to a 'LayoutShadowNode')
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 5964
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12851
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12851
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Unsupported gesture action null, stack:
+_deltaForGestureAction@634:8764
+_completeTransition@634:5959
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 79510
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 540967
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 's.systemShouldAdvance'), stack:
+advance@659:1748
+loop@659:2231
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 174193
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 64582
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 1244
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to replace unknown view tag: 11785
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 52926
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 's.systemShouldAdvance'), stack:
+advance@659:1748
+loop@659:2231
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 109622
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12851
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12851
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 3158
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'e.data.route.view'), stack:
+<unknown>@843:1765
+value@630:1347
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 164726
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 145815
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'this.state.chargeName.length'), stack:
+value@877:11563
+value@877:13744
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12851
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 's.systemShouldAdvance'), stack:
+advance@659:1748
+loop@659:2231
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 11397
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12887
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: null is not an object (evaluating 'p.default.navigator.push'), stack:
+value@727:1110
+onPress@728:2645
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@624:12678
+_transitionBetween@624:12887
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'n[i]=l[i]'), stack:
+assign@3:124
+value@741:18418
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.devsupport.JSException: TypeError: undefined is not an object (evaluating 'a.easeInOutQuad') (index.android.bundle:798)
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@624:12678
+_transitionBetween@624:12851
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: null is not an object (evaluating 'b.default.navigator.push'), stack:
+value@1094:3559
+touchableHandlePress@262:1178
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: null is not an object (evaluating 'e.source_url.trim'), stack:
+getImageUri@980:3496
+value@981:2395
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 21944
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12851
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'e.data.route.view'), stack:
+<unknown>@843:1765
+value@630:1347
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 48450
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 36879
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 9316
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 36903
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@634:12678
+_transitionBetween@634:12851
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 't[t.length-1].options'), stack:
+value@1051:8323
+touchableHandlePress@262:1178
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 40933
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'n[i]=l[i]'), stack:
+assign@3:124
+value@732:18418
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Array.prototype.forEach requires that |this| not be undefined, stack:
+doDelete@767:10073
+deleteAbandonedPics@767:10428
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'this.state.chargeName.length'), stack:
+value@868:11563
+value@868:13744
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 1383
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: 1 is not a function (evaluating 'Array(t>1?t-1:0)'), stack:
+setImmediate@27:895
+l@118:752
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 966
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'n[i]=l[i]'), stack:
+assign@3:124
+value@732:18418
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Invalid character in header field name, stack:
+e@134:156
+append@134:5128
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@624:12678
+_transitionBetween@624:12887
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'n[i]=l[i]'), stack:
+assign@3:124
+value@732:18418
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'n[i]=l[i]'), stack:
+assign@3:124
+value@732:18418
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to update component `TouchableOpacity` that has already been unmounted (or failed to mount)., stack:
+updateComponent@179:5519
+receiveComponent@179:4973
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: null is not an object (evaluating 'e.formInput3.focus'), stack:
+onPickerConfirm@805:11221
+<unknown>@806:906
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 36684
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.devsupport.JSException: SyntaxError: Invalid character '\u0167' (index.android.bundle:1138)
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Tried to add child that already has a parent! Remove it from its parent first.
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Requested property descriptor of a value that is not an object., stack:
+e@11:1567
+value@38:813
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: Attempted to assign to readonly property., stack:
+h@118:1238
+<unknown>@118:1600
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.facebook.react.uimanager.ReactShadowNode.addChildAt(com.facebook.react.uimanager.ReactShadowNode, int)' on a null object reference
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.RuntimeException: Error calling RCTDeviceEventEmitter.emit
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.common.JavascriptException: undefined is not an object (evaluating 'a.animationInterpolators'), stack:
+_transitionSceneStyle@624:12678
+_transitionBetween@624:12851
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 9427
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: java.lang.RuntimeException: Error calling RCTDeviceEventEmitter.emit
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 7939
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
+java.lang.RuntimeException: com.facebook.react.uimanager.IllegalViewOperationException: Trying to add unknown view tag: 5407
+at com.meituan.beeRN.reactnative.exceptionhandler.WMNativeModuleCallExceptionHandler.handleException(WMNativeModuleCallExceptionHandler.kt:37)
+at com.facebook.react.cxxbridge.CatalystInstanceImpl.onNativeException(CatalystInstanceImpl.java:***)
+***
+
+
+
+
