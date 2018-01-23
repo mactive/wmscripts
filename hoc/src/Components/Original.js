@@ -16,17 +16,13 @@ class Original extends Component {
 
   componentDidMount() {
     console.log(this.props.name, 'componentDidMount')
-    // const self = this;
-    // setTimeout(() => {
-    //   self.setState({
-    //     name: `${self.state.name} - 500ms`
-    //   })
-    // }, 500);
-  }
-
-  componentWillReceiveProps(nextProps) {
-    console.log(`${this.props.name} Current props: `, this.props);
-    console.log(`${this.props.name} Next props: `, nextProps);
+    
+    const self = this;
+    setTimeout(() => {
+      self.setState({
+        name: `${self.state.name} - 500ms`
+      })
+    }, 500);
   }
 
   componentDidUpdate(prevProps, prevState) {
