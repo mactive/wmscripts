@@ -10,19 +10,20 @@ class Original extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: props.name
+      name: props.name,
+      setTimeOutMS: 500,
     }
   }
 
   componentDidMount() {
     console.log(this.props.name, 'componentDidMount')
-    
+
     const self = this;
     setTimeout(() => {
       self.setState({
-        name: `${self.state.name} - 500ms`
+        name: `${self.state.name} - ${self.state.setTimeOutMS}ms`
       })
-    }, 500);
+    }, this.state.setTimeOutMS);
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -39,7 +40,7 @@ class Original extends Component {
 }
 
 Original.propTypes = {
-  name: PropTypes.string
+  name: PropTypes.any
 };
 
 export default Original;
