@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'babel-cli' ]
+2 info using npm@3.8.5
+3 info using node@v7.8.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData babel-cli
+8 silly fetchNamedPackageData babel-cli
+9 silly mapToRegistry name babel-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'babel-cli',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'babel-cli',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/babel-cli
+14 verbose request uri https://registry.npmjs.org/babel-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 9:19:08 AM
+17 verbose request using bearer token for auth
+18 verbose request id c294527c9a839058
+19 http request GET https://registry.npmjs.org/babel-cli
+20 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+21 info attempt registry request try #2 at 9:19:18 AM
+22 verbose request using bearer token for auth
+23 http request GET https://registry.npmjs.org/babel-cli
+24 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+25 info attempt registry request try #3 at 9:20:18 AM
+26 verbose request using bearer token for auth
+27 http request GET https://registry.npmjs.org/babel-cli
+28 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+28 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+28 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+28 silly fetchPackageMetaData  error for babel-cli { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+28 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+28 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+28 silly fetchPackageMetaData   code: 'ENOTFOUND',
+28 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+28 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+28 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+28 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+28 silly fetchPackageMetaData   port: 443 }
+29 silly rollbackFailedOptional Starting
+30 silly rollbackFailedOptional Finishing
+31 silly runTopLevelLifecycles Starting
+32 silly runTopLevelLifecycles Finishing
+33 silly install printInstalled
+34 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+34 verbose stack     at errnoException (dns.js:28:10)
+34 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+35 verbose cwd /Users/mengqian/Project/waimai/wmscripts/nodejs
+36 error Darwin 16.7.0
+37 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "babel-cli"
+38 error node v7.8.0
+39 error npm  v3.8.5
+40 error code ENOTFOUND
+41 error errno ENOTFOUND
+42 error syscall getaddrinfo
+43 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+44 error network This is most likely not a problem with npm itself
+44 error network and is related to network connectivity.
+44 error network In most cases you are behind a proxy or have bad network settings.
+44 error network
+44 error network If you are behind a proxy, please make sure that the
+44 error network 'proxy' config is set properly.  See: 'npm help config'
+45 verbose exit [ 1, true ]

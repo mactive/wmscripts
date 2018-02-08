@@ -15,6 +15,14 @@ class Original extends Component {
     }
   }
 
+  stringMax(str, maxLength) {
+    let formatedStr = str.toString().trim();
+    if (formatedStr.length > maxLength) {
+      return formatedStr.substr(0, maxLength - 1).concat('...');
+    }
+    return formatedStr;
+  }
+
   componentDidMount() {
     console.log(this.props.name, 'componentDidMount')
 

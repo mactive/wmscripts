@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 
 
 const Composition = function(WrappedComponent) {
-  return class extends Component {
+  return class HOCComposition extends Component {
     static defaultProps = {
       name: 'Composition'
     }
@@ -36,12 +36,13 @@ const Composition = function(WrappedComponent) {
 /**
  * Extend hoc
  * 只执行一边生命周期, 如果子类对象实现了某一步生命周期, 那么执行子类的
- * 如果想先执行父类的方法, 可以调用 super.对应的方法() or 属性
+ * 如果想先执行父类的方法, 可以调用 super.方法() 声明周期或自己声明的方法
+ * 但是不能 super.state 的方式直接取 super 的, 哪怕是自定义的值也不行
  * render() 方法需要执行 super.render()
  */
 
 const Extend = function(WrappedComponent) {
-  return class extends WrappedComponent {
+  return class HOCExtend extends WrappedComponent {
     static propTypes = {
       name: PropTypes.oneOfType([
         PropTypes.string,
@@ -51,7 +52,7 @@ const Extend = function(WrappedComponent) {
 
     componentDidMount(){
       super.componentDidMount();
-      console.log(super.state)
+      console.log(super.stringMax(this.props.name, 6))
       console.log(this.props.name, 'Extend-componentDidMount');
     }
   

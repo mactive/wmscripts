@@ -35,9 +35,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        {/* <Original /> */}
-        {/* <CompositionComponent name={this.state.name} time={new Date()}/> */}
-
+        <Original />
+        <CompositionComponent name={this.state.name} time={new Date()}/>
         <ExtendComponent name={this.state.extendNumberName} />
         <ExtendComponent name={this.state.extendStringName} />
         <button onClick={this.handleClick}>changeName</button>
