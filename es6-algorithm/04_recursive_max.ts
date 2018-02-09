@@ -6,4 +6,4 @@ const max = (list: number[]) => {
   return list[0] > subMax ? list[0]: subMax;
 }
 
-console.log(max([1,2,3,4,13]))
+console.log(max([1,15,3,4,13]))
