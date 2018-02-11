@@ -1,14 +1,14 @@
 Arguments: 
-  /usr/local/bin/node /Users/mengqian/.yarn/bin/yarn.js add inquirer
+  /Users/mengqian/.nvm/versions/node/v8.9.4/bin/node /Users/mengqian/.yarn/bin/yarn.js add ts-node
 
 PATH: 
-  /Users/mengqian/.rvm/gems/ruby-2.2.1/bin:/Users/mengqian/.rvm/gems/ruby-2.2.1@global/bin:/Users/mengqian/.rvm/rubies/ruby-2.2.1/bin:/Users/mengqian/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mengqian/Library/Android/sdk/platform-tools:/Users/mengqian/Project/shell:/Users/mengqian/.rvm/bin
+  /Users/mengqian/.rvm/gems/ruby-2.2.1/bin:/Users/mengqian/.rvm/gems/ruby-2.2.1@global/bin:/Users/mengqian/.rvm/rubies/ruby-2.2.1/bin:/Users/mengqian/.nvm/versions/node/v8.9.4/bin:/Users/mengqian/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mengqian/Library/Android/sdk/platform-tools:/Users/mengqian/Project/shell:/Users/mengqian/.rvm/bin
 
 Yarn version: 
   1.3.2
 
 Node version: 
-  7.8.0
+  8.9.4
 
 Platform: 
   darwin x64
