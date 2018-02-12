@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@types/node@^9.4.5":
+  version "9.4.5"
+  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-9.4.5.tgz#d2a90c634208173d1b1a0a6ba9f1df3de62edcf5"
+
 "@types/strip-bom@^3.0.0":
   version "3.0.0"
   resolved "http://registry.npm.taobao.org/@types/strip-bom/download/@types/strip-bom-3.0.0.tgz#14a8ec3956c2e81edb7520790aecf21c290aebd2"

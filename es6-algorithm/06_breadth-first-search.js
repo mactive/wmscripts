@@ -15,6 +15,7 @@ const search = (name) => {
     searchQueue = searchQueue.concat(graph[name]);
     const searched = [];
     while (searchQueue.length) {
+        // 第一个元素就是要查找的
         const person = searchQueue.shift();
         if (searched.indexOf(person) === -1) {
             if (personIsSeller(person)) {

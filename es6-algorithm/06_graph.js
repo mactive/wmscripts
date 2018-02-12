@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const graph = {};
+graph.you = ['alice', 'bob', 'claire'];
+graph.alice = ['peggy'];
+graph.bob = ['anuj', 'peggy'];
+graph.claire = ['thom', 'jonny'];
+graph.anuj = ['nam'];
+graph.peggy = [];
+graph.thom = [];
+graph.jonny = [];
+graph.nam = [];
+exports.default = graph;
