@@ -1,4 +1,3 @@
-"use strict";
 const countdown = (count) => {
     console.log(count);
     if (count <= 0) {

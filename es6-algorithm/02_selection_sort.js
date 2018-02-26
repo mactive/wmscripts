@@ -1,4 +1,3 @@
-"use strict";
 // Selection Sort - O(log n^2)
 // Parameter:
 // 1. random array

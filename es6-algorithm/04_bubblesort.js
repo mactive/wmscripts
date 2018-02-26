@@ -1,4 +1,3 @@
-"use strict";
 const bubbleSort = (list, pointer = list.length - 1) => {
     // Base case
     if (pointer === 0) {

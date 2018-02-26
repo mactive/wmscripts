@@ -1,4 +1,3 @@
-"use strict";
 const personIsSeller = (name) => name[name.length - 1] === 'm';
 const graph = {};
 graph.you = ['alice', 'bob', 'claire'];

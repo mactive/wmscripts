@@ -1,4 +1,3 @@
-"use strict";
 const genHash = (str = '') => {
     let hash = 5381;
     if (!str)

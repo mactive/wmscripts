@@ -1,18 +1,26 @@
-"use strict";
-const bubbleSort = (list, pointer = list.length - 1) => {
-    // Base case
-    if (pointer === 0) {
-        return list;
+/**
+ * 从小到大排列 快速排序算法的递归实现
+ * @param array
+ */
+const quickSort = (array) => {
+    if (array.length < 2) {
+        return array;
     }
-    // recursice case
-    for (let i = 0; i < pointer; i++) {
-        if (list[i] > list[i + 1]) {
-            console.log(list[i], list[i + 1]);
-            let temp = list[i + 1];
-            list[i + 1] = list[i];
-            list[i] = temp;
-        }
-    }
-    return bubbleSort(list, pointer - 1);
+    const pivot = array[0];
+    const keysAreLessPivot = array.slice(1).filter(key => key <= pivot);
+    const keysAreMorePivot = array.slice(1).filter(key => key > pivot);
+    console.log({ keysAreLessPivot, pivot, keysAreMorePivot });
+    return [...quickSort(keysAreLessPivot), pivot, ...quickSort(keysAreMorePivot)];
 };
-console.log(bubbleSort([6, 9, 8, 4]));
+// console.log(quickSort([10,5,2,3]));
+const quickSortDesc = (array) => {
+    if (array.length < 2) {
+        return array;
+    }
+    const pivot = array[0];
+    const keysAreLessPivot = array.slice(1).filter(key => key <= pivot);
+    const keysAreMorePivot = array.slice(1).filter(key => key > pivot);
+    console.log({ keysAreMorePivot, pivot, keysAreLessPivot });
+    return [...quickSortDesc(keysAreMorePivot), pivot, ...quickSortDesc(keysAreLessPivot)];
+};
+console.log(quickSortDesc([10, 5, 2, 8]));
