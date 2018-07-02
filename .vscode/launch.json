@@ -7,6 +7,18 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "readLineSync",
+      "program": "${workspaceFolder}/mysql/readLineSync.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/mysql/readcsv.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "daycount",
       "program": "${workspaceFolder}/crash/daycount.js"
     },
