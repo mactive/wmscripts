@@ -3,18 +3,13 @@
 // lineReader.eachLine(readStream, function(line) {});
 var mysql = require('mysql');
 var lineReader = require('line-reader');
-const filePath = './mysql/sources/P1';
+// const filePath = './mysql/sources/P1';
+const filePath = './mysql/sources/0620_ios_pv.log';
 var lineCount = 0;
 var connection ;
-// var connection = mysql.createConnection({
-//     host: 'localhost',
-//     user: 'root',
-//     password: 'mengqian',
-//     database: 'pageview',
-// });
 
 var pool = mysql.createPool({
-    connectionLimit: 10,
+    connectionLimit: 20,
     host: 'localhost',
     user: 'root',
     password: 'mengqian',
@@ -23,19 +18,10 @@ var pool = mysql.createPool({
 
 pool.getConnection(function (err, conn) {
     if (err) throw err; // not connected!
-    connection  = conn
+    // 全局赋值
+    connection = conn
     initReadline();
 });
-
-// connection.connect(function (err) {
-//     if (err) {
-//         console.error('error connecting: ' + err.stack);
-//         return;
-//     }
-
-//     console.log('connected as id ' + connection.threadId);
-//     initReadline();
-// });
 
 
 function initReadline() {
