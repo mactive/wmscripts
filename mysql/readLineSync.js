@@ -4,7 +4,7 @@
 var mysql = require('mysql');
 var lineReader = require('line-reader');
 // const filePath = './mysql/sources/P1';
-const filePath = './mysql/sources/0620_ios_pv.log';
+const filePath = './mysql/sources/ios_20180808.txt';
 var lineCount = 0;
 var connection ;
 
@@ -57,9 +57,11 @@ function parseLine(lineData) {
         page_stay_time: parseInt(arr[4]) || 0,
         event_timestamp: parseInt(arr[5])
     }
+    // console.log(values);
+
     return new Promise((resolve, reject) => {
         // 想办法变成同步阻塞的
-        connection.query('INSERT INTO pv SET ?', values, function (error, results, fields) {
+        connection.query('INSERT INTO pv_ios_0806 SET ?', values, function (error, results, fields) {
             if (error) reject(error);
             resolve(results.insertId);
         });
