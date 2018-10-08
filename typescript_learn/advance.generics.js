@@ -50,3 +50,7 @@ function copyField(target, source) {
     }
     return target;
 }
+let target = { a: 1, b: 2, c: 3, d: 4 };
+let source = { b: 10, d: 20 };
+// source 中不能有 e:15, f:10 的字段
+copyField(target, source);
