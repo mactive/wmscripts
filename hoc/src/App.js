@@ -2,15 +2,19 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Original from './Components/Original'
-import { Composition } from './Hoc/Hoc'
+import { Composition, Extend } from './Hoc/Hoc'
 
 const CompositionComponent = Composition(Original);
+const ExtendComponent = Extend(Original);
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: 'CompositionComponent'
+      name: 'CompositionComponent',
+      extendName: 'extendComponent',
+      extendNumberName: 9999,
+      extendStringName: 'String color is lightcoral',
     }
     this.handleClick = this.handleClick.bind(this);
   }
@@ -33,6 +37,8 @@ class App extends Component {
         </p>
         <Original />
         <CompositionComponent name={this.state.name} time={new Date()}/>
+        <ExtendComponent name={this.state.extendNumberName} />
+        <ExtendComponent name={this.state.extendStringName} />
         <button onClick={this.handleClick}>changeName</button>
       </div>
     );

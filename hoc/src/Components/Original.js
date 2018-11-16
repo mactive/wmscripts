@@ -10,19 +10,28 @@ class Original extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: props.name
+      name: props.name,
+      setTimeOutMS: 500,
     }
+  }
+
+  stringMax(str, maxLength) {
+    let formatedStr = str.toString().trim();
+    if (formatedStr.length > maxLength) {
+      return formatedStr.substr(0, maxLength - 1).concat('...');
+    }
+    return formatedStr;
   }
 
   componentDidMount() {
     console.log(this.props.name, 'componentDidMount')
-    
+
     const self = this;
     setTimeout(() => {
       self.setState({
-        name: `${self.state.name} - 500ms`
+        name: `${self.state.name} - ${self.state.setTimeOutMS}ms`
       })
-    }, 500);
+    }, this.state.setTimeOutMS);
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -39,7 +48,7 @@ class Original extends Component {
 }
 
 Original.propTypes = {
-  name: PropTypes.string
+  name: PropTypes.any
 };
 
 export default Original;

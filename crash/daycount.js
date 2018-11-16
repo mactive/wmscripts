@@ -7,29 +7,26 @@ var moment = require('moment');
 var inquirer = require('inquirer')
 
 var j = request.jar();
-var cookie = request.cookie('_lxsdk=15dbc362d80c8-0a9870ee6d92cc-30667808-13c680-15dbc362d8052; UM_distinctid=15dc4bd802846b-02dc62edf86845-30667808-240000-15dc4bd802984f; galaxy.sid=k8PkFWp1158POHN5YnTDnO5dqekjcQUb; galaxy.sid.sig=ogT_qDDIC4CCgogTL1AFyhSuv9w; _lxsdk_cuid=15dcaec71b2c8-0a0bf1ce96a0bf-30667808-240000-15dcaec71b3c8; _hc.v=46af742f-ad12-edce-1c52-761c7c9864a0.1503463574; misId=mengqian02; misId.sig=pFx5H3Z1B1Gq_cCTMM48Axtqa3E; userId=99568; userId.sig=SaRmJ2730pjCWfk9hemm3HnRzck; userName=%E5%AD%9F%E8%B0%A6; userName.sig=Vt_XtZFuiihDV-bU9kAcT6qQ1Do; role=staff; xingkong.sid=oIOVJfbrCOGq1Fn7c7CGBFiy5f0e20Sg; xingkong.sid.sig=KhwXG2X29ONO5FygqmdOYLqP2PU; execEngine=hive; statDs=DW_HIVE_DB_CONNECT_URL; displayName=dw_hiveDW_HIVE_DB_CONNECT_URL; al=bcnruxzgmmsqnqhjxgxphnjpfmmpjliq; u=595338; uu=6110abb0-7be1-11e7-9d4e-b93f461663f3; ai=1; skmtutc=3ndLQdvgdGyS/cmB4uWJzF1qk0johL0V6z9V+ixRaWAyG5tP8xwMeLgnCcajs9HG-MnDTYvkFcMg9SHLTJt7E/judVIs=; ssoid.sig=KnjuPnCR74Qd-XTI9i9dgE42Cn0; _gid=GA1.2.1850279118.1511430463; crash-sso=99568|62c40561d3*b4b9fbd177cf6fd5f6cf9|mengqian02|1511489828212|%E5%AD%9F%E8%B0%A6|k87yi+VxXnnXT/amlz5IWP0YWK00tVDeILXLRLQmzTE=; _ga=GA1.2.1769249289.1502162152; __mta=217413929.1487667544655.1511513555234.1511513571103.912; client-id=92beca94-2fd8-4de0-98b1-08d4b077ee98');
-
-
-
-j.setCookie(cookie, 'https://crash.sankuai.com');
+var multipleCookie = 'UM_distinctid=1641bf500f45d-08c37f7b36d00a-17376952-232800-1641bf500f552f; _lxsdk_cuid=1641c1f67cf61-05197fca6009d2-17376952-232800-1641c1f67d0c8; _lxsdk=1641c1f67cf61-05197fca6009d2-17376952-232800-1641c1f67d0c8; _ga=GA1.2.968884466.1529548216; misId=mengqian02; misId.sig=pFx5H3Z1B1Gq_cCTMM48Axtqa3E; userId=99568; userId.sig=SaRmJ2730pjCWfk9hemm3HnRzck; userName=%E5%AD%9F%E8%B0%A6; userName.sig=Vt_XtZFuiihDV-bU9kAcT6qQ1Do; role=staff; execEngine=hive; statDs=DW_HIVE_DB_CONNECT_URL; displayName=dw_hiveDW_HIVE_DB_CONNECT_URL; al=xjmkagslghydxegscmoakdxdibsqrxuq; u=595338; uu=bc6f8ea0-7a9a-11e8-8975-ff8e87c46ec2; cid=1; ai=1; xingkong.sid=VQtQPEJFkBNqDV_PJTNKyQIkTPS5x5mt; xingkong.sid.sig=pv9bUBrdIaNfa--ugddLfiScFMQ; _gid=GA1.2.426120775.1530494723; client-id=58fed925-0bb2-4e52-80af-2888a1b7d676; skmtutc=dOuwUU7/25qtQUUhb8ceQNv5H3Zb4slcZUIc/7y9fABgqmZxp8BiRVcRMSNsiq9o-YAeNXRfMVz8BjFRnZQH8xeiyHcw=; _lxsdk_s=16468dabbc2-bb4-12c-997%7C%7C6; crash-sso=99568|0846cd6762*c4044ae0e93c01c8ac9dc|mengqian02|56cd83f790248b4758e0c845|1530767958272|%E5%AD%9F%E8%B0%A6|E0Mej3JWgzj17bCRJYYY3cUfxHu+Oxq+1/pqcyZ23n0=; __mta=41858461.1529545561796.1530685733229.1530767958695.39';
+multipleCookie.split(';').forEach((x) => {
+  j.setCookie(request.cookie(x),  'https://crash.sankuai.com')
+})
 
 /**
  * 版本信息
  * @param {*} args 
  */
 var getVersionByPlatform = function(args) {
-  // console.log(args.platform)
   var filterUrl = `https://crash.sankuai.com/api/filter?project=waimai_mfe_bee_${args.platform}&type=crash&page=index`
   return new Promise( resolve => {
-    request({url: filterUrl, jar: j}, function (error, response, body) {
+    // console.log(j.getCookieString('https://crash.sankuai.com') )
+    request({url: filterUrl, jar: j, method: 'GET'}, function (error, response, body) {
       var res = JSON.parse(body)
       var versions = res.data.filter(item => item.filter === 'appVersion')
       resolve(versions[0].options)
     });
   }, reject => {
-
-  })
-  
+  }) 
 }
 
 /**
