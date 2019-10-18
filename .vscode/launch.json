@@ -7,6 +7,12 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "CurrentJSFile",
+      "program": "${file}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "readLineSync",
       "program": "${workspaceFolder}/mysql/readLineSync.js"
     },
