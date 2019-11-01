@@ -5,38 +5,51 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Debug in Chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "CurrentJSFile",
       "program": "${file}"
     },
     {
-      "type": "node",
-      "request": "launch",
-      "name": "readLineSync",
-      "program": "${workspaceFolder}/mysql/readLineSync.js"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Launch Program",
-      "program": "${workspaceFolder}/mysql/readcsv.js"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "daycount",
-      "program": "${workspaceFolder}/crash/daycount.js"
-    },
-    {
-      "name": "Current TS File",
-      "type": "node",
-      "request": "launch",
-      "args": ["${relativeFile}"],
-      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
-      "sourceMaps": true,
-      "cwd": "${workspaceRoot}",
-      "protocol": "inspector",
-    }
-  ]
-}
+        "type": "node",
+        "request": "launch",
+        "name": "readLineSync",
+        "program": "${workspaceFolder}/mysql/readLineSync.js"
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/mysql/readcsv.js"
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "daycount",
+        "program": "${workspaceFolder}/crash/daycount.js"
+      },
+      {
+        "name": "Current TS File",
+        "type": "node",
+        "request": "launch",
+        "args": [
+          "${relativeFile}"
+        ],
+        "runtimeArgs": [
+          "--nolazy",
+          "-r",
+          "ts-node/register"
+        ],
+        "sourceMaps": true,
+        "cwd": "${workspaceRoot}",
+        "protocol": "inspector",
+      }
+    ]
+  }
