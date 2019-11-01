@@ -1,15 +1,15 @@
-let handler = {
-    get: function(target, name){
-        console.log(target[name])
-        return name in target ? target[name] : 37;
+const target = {
+    name: 'Billy Bob',
+    age: 15
+}
+
+const handler = {
+    get (target, key, proxy) {
+        const today = new Date();
+        console.log(`Get request made for ${key} at ${today}`)
+        return Reflect.get(target, key, proxy)
     }
-};
+}
 
-let p = new Proxy({}, handler);
-
-p.a = 1;
-p.b = undefined;
-
-console.log(p.a, p.b);    // 1, undefined
-
-console.log('c' in p, p.c);    // false, 37
+const proxyObj = new Proxy(target, handler)
+console.log(proxyObj.name)
