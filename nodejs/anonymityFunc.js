@@ -1,7 +1,7 @@
 function createComparisonFunction(propertyName) {
     return function (object1, object2) {
-        var value1 = object1[propertyName];
-        var value2 = object2[propertyName];
+        let value1 = object1[propertyName];
+        let value2 = object2[propertyName];
         if (value1 < value2) {
             return -1;
         }
@@ -13,7 +13,7 @@ function createComparisonFunction(propertyName) {
         }
     };
 }
-var items = [
+let items = [
     { name: 'Edward', value: 21 },
     { name: 'Sharpe', value: 37 },
     { name: 'And', value: 45 },
@@ -22,7 +22,6 @@ var items = [
     { name: 'Zeros', value: 37 }
 ];
 console.log(items);
-var valueCompareFunc = createComparisonFunction('value');
-var sorted = items.sort(valueCompareFunc);
+let valueCompareFunc = createComparisonFunction('value');
+let sorted = items.sort(valueCompareFunc);
 console.log(sorted);
-//# sourceMappingURL=anonymityFunc.js.map

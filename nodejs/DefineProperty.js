@@ -1,6 +1,6 @@
-var obj = {};
+let obj = {};
 obj.a = '@a';
-var a_desc = Object.getOwnPropertyDescriptor(obj, 'a');
+let a_desc = Object.getOwnPropertyDescriptor(obj, 'a');
 console.log(a_desc);
 Object.defineProperty(obj, 'b', {
     enumerable: false,
@@ -8,18 +8,18 @@ Object.defineProperty(obj, 'b', {
     writable: false,
     value: '@b'
 });
-var b_desc = Object.getOwnPropertyDescriptor(obj, 'b');
+let b_desc = Object.getOwnPropertyDescriptor(obj, 'b');
 console.log(b_desc);
 obj.b = 'static b';
+// 设定C的值
 Object.defineProperty(obj, 'c', {
-    get: function () {
+    get: () => {
         console.log('c is getting');
         return '@C';
     },
-    set: function (newValue) {
+    set: (newValue) => {
         console.log('c is assigned');
-    }
+    },
 });
 console.log(obj.c);
 obj.c = 'static C';
-//# sourceMappingURL=DefineProperty.js.map

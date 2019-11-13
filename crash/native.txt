@@ -1,0 +1,258 @@
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/BeeChatList.js
+  7,5:     NativeModules,
+  21,9:         NativeModules.UIManager.dispatchViewManagerCommand(
+  23,13:             NativeModules.UIManager.BEEChatListView.Commands.create,
+  29,9:         NativeModules.UIManager.dispatchViewManagerCommand(
+  31,13:             NativeModules.UIManager.BEEChatListView.Commands.refresh,
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/DeliverMapView.android.js
+  7,5:     NativeModules,
+  11,23: const { UIManager } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/DeliverMapView.js
+  8,5:     NativeModules,
+  12,24: let {DrawMapManager} = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/FunctionalNavBar.js
+  20,5:     NativeModules,
+  69,13:         if (NativeModules.RNSPFDurationManager) {
+  70,13:             NativeModules.RNSPFDurationManager.guiLoadDuration('homepage');
+  71,13:             NativeModules.RNSPFDurationManager.reportDuration('homepage');
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/GeoComponent.js
+  26,5:     NativeModules,
+  38,42: const { WMGeolocation, WMEnvironment } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/map/Map.js
+  9,5:     NativeModules,
+  53,13:             NativeModules.UIManager.dispatchViewManagerCommand(
+  55,17:                 NativeModules.UIManager.MapView.Commands.fitToElements,
+  59,13:             NativeModules.MapView.fitToElements(
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/map/MapMarker.js
+  10,7:       NativeModules,
+  37,13:             NativeModules.UIManager.dispatchViewManagerCommand(
+  39,15:               NativeModules.UIManager.MapMarker.Commands.showCallout,
+  42,13:             NativeModules.MapMarker.showCallout(
+  50,13:             NativeModules.UIManager.dispatchViewManagerCommand(
+  52,15:               NativeModules.UIManager.MapMarker.Commands.hideCallout,
+  55,13:             NativeModules.MapMarker.hideCallout(
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/MTImagePicker.android.js
+  1,35: import {ImagePickerManager} from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/MTImagePicker.ios.js
+  1,37: import {MTImagePickerManager} from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/NavBar.js
+  13,5:     NativeModules,
+  61,13:         if (NativeModules.RNSPFDurationManager) {
+  62,13:             NativeModules.RNSPFDurationManager.guiLoadDuration('homepage');
+  63,13:             NativeModules.RNSPFDurationManager.reportDuration('homepage');
+  71,13:         if (NativeModules.MTPerformance) {
+  73,13:             NativeModules.MTPerformance.viewPathStart(`${this.props.info.title}${subTitle}_DidMount`);
+  81,13:         if (NativeModules.MTPerformance) {
+  83,13:             NativeModules.MTPerformance.viewPathEnd(`${this.props.info.title}${subTitle}_WillUnmount`);
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/NavTabBar.js
+  11,5:     NativeModules,
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/components/Scanner.js
+  1,10: import { NativeModules } from "react-native";
+  3,16: export default NativeModules.WMScanner;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/services/SSOManager.js
+  5,10: import { NativeModules, Platform, AsyncStorage } from 'react-native';
+  14,26: const NativeSSOManager = NativeModules.WMSSOManager;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/BeeMakeCall.js
+  8,5:     NativeModules,
+  11,27: const NativeBEEMakeCall = NativeModules.BEECallManagerBridge;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/cookies.js
+  12,5: if (NativeModules.RNCookieManagerAndroid) {
+  13,18:     CookieUtil = NativeModules.RNCookieManagerAndroid
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/GeoHelper.js
+  11,24: const RNAMapLocation = NativeModules.RNAMapLocation;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/HomerUtil.js
+  32,5:     NativeModules,
+  45,5: } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/HornUtils.js
+  14,5:     NativeModules,
+  20,37: const { MfeHorn, MfeHornManager } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/LogUtils.js
+  12,9: const { NativeModules } = ReactNative;
+  13,20: const { MfeLog } = NativeModules;
+  100,13:             NativeModules.CatManager.pvWithCommandAndExtra(
+  119,9:         NativeModules.MfeSniffer && NativeModules.MfeSniffer.normal({
+  119,37:         NativeModules.MfeSniffer && NativeModules.MfeSniffer.normal({
+  131,9:         NativeModules.MfeSniffer && NativeModules.MfeSniffer.smell({
+  131,37:         NativeModules.MfeSniffer && NativeModules.MfeSniffer.smell({
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/MockUtils.js
+  14,30: import { NativeEventEmitter, NativeModules, Platform } from "react-native";
+  56,49:     const debugManager = new NativeEventEmitter(NativeModules.DebugManager);
+  89,9:         NativeModules.DebugManager.getIsMock(function (obj) {
+  112,27:     if ("DebugManager" in NativeModules) {
+  115,26:         console.log("SDK：NativeModules.DebugManager不存在，动态Mock不生效！")
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/monitor/CatMonitor.js
+  4,5:     NativeModules,
+  94,9:         NativeModules.CatManager.pvWithCommand(command, network, code, tunnel, requestBytes, responseBytes, responseTime, ip, uploadPercent);
+  121,9:         NativeModules.CatManager.pvWithCommandAndExtra(
+  146,13:             NativeModules.CatManager.sendHiJackedUrl(domain, domainIPMap[domain].ips);
+  148,13:             NativeModules.CatManager.resolvHost(domain, (ips) => {
+  155,21:                     NativeModules.CatManager.sendHiJackedUrl(domain, ips);
+  165,9:         NativeModules.CatManager.resolvHost(domain, (ips) => {
+  194,9:         NativeModules.CatManager.pvWithCommandAndExtra(
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/TraceUtil.js
+  13,5:     NativeModules,
+  90,9:         NativeModules.WMEnvironment.getRiskControlInfo().then((riskInfo) => {
+  205,9:         NativeModules.RNLingXiManager.trackEvent(theEventName);
+  216,9:         NativeModules.RNLingXiManager.trackView(cid, env);
+  232,9:         NativeModules.RNLingXiManager.trackEventAndDict(theEventName, obj);
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/VersionUpdate/NativeUpdateUtil.js
+  29,13:             NativeModules.RNNativeUpdate.download(url);
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/utils/WMGeoHelper.js
+  6,5:     NativeModules,
+  17,27: const { WMGeolocation } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/BDSchool/Entry.js
+  10,5:     NativeModules,
+  29,40:         const { EnvironmentManager } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/BDSchool/KnowledgeBase.js
+  16,5:     NativeModules,
+  28,21: const { RNVideo } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/BeaconBind/BeaconBridge.js
+  1,20: import { Platform, NativeModules, NativeEventEmitter } from 'react-native';
+  9,5: } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/BrandVisit/AddBrandVisit.js
+  15,39: import { WMFileUploader, WMFS } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/BrandVisit/BrowseBrandVisit.js
+  11,39: import { WMFileUploader, WMFS } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/BrandVisit/Components/PicUpload.js
+  5,38: import { WMImagePicker, WMFS } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/CityPoi/CityPoiItem.js
+  1,28: import { UIManager } from "NativeModules";
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/CommentDelivery/CommentDelivery.js
+  15,39: import { WMFileUploader, WMFS } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Commons/InnerViewContainer.js
+  21,5:     NativeModules,
+  40,17:             if (NativeModules.MTPerformance) {
+  41,17:                 NativeModules.MTPerformance.viewPathStart(`${title}_DidMount`);
+  51,17:             if (NativeModules.MTPerformance) {
+  52,17:                 NativeModules.MTPerformance.viewPathEnd(`${title}_WillUnmount`);
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Commons/ShangDan/ImageUploader/ImageIndicator.js
+  8,35: import {ImagePickerManager} from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Commons/ShangDan/ImageUploader/ImageUploader.js
+  18,32: import { QRCodeScanner } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/CompanyDetail/CompanyDetail.js
+  14,5:     NativeModules,
+  69,5: } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Homer/Components/ImageMultiIUploader.js
+  8,8: import NativeModules from 'NativeModules';
+  8,28: import NativeModules from 'NativeModules';
+  13,49: const { WMFileUploader, WMFS, WMImagePicker } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Index/Index.js
+  29,5:     NativeModules,
+  276,40:         const { EnvironmentManager } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/MagicMirror/MagicPoiDetail.js
+  13,3:   NativeModules,
+  372,9:     if (NativeModules.MTPerformance) {
+  373,7:       NativeModules.MTPerformance.viewPathStart(`${title}_DidMount`);
+  386,9:     if (NativeModules.MTPerformance) {
+  387,7:       NativeModules.MTPerformance.viewPathEnd(`${title}_WillUnmount`);
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/MainView/MainView.js
+  50,3:   NativeModules,
+  336,13:         if (NativeModules.BackHome) {
+  337,11:           NativeModules.BackHome.go((result) => {
+  347,11:       if (NativeModules.WMEnvironment.isNatchScreen) {
+  348,9:         NativeModules.WMEnvironment.isNatchScreen().then(result => {
+  603,15:           if (NativeModules.MTPerformance && NativeModules.MTPerformance.setCurrentPage) {
+  603,46:           if (NativeModules.MTPerformance && NativeModules.MTPerformance.setCurrentPage) {
+  604,13:             NativeModules.MTPerformance.setCurrentPage(route.view);
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Me/Me.js
+  29,5:     NativeModules,
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/NearPoi/PoiMap.js
+  26,5:     NativeModules,
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/PartTime/AccompanyVisit/WorkPicture.js
+  17,5:     NativeModules,
+  20,28: const ImagePickerManager = NativeModules.ImagePickerManager;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/PoiRecreate/ImageUploader.js
+  24,32: import { QRCodeScanner } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Push/Push.js
+  13,5:     NativeModules,
+  61,69:             const IOSPushNoticationEmitter = new NativeEventEmitter(NativeModules.PushManager);
+  62,71:             const IOSSchemeNoticationEmitter = new NativeEventEmitter(NativeModules.SchemeManager);
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Report/Components/ImageIndicator.js
+  7,35: import {ImagePickerManager} from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/StartUp/StartUp.js
+  10,11:           NativeModules,
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/TransferOrder/TransferOrder.js
+  12,39: import { WMFileUploader, WMFS } from "NativeModules";
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Upload/UploadMaterial.js
+  7,37: import { ImagePickerManager } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Upload/Utils.js
+  3,29: import {RNDeviceInfo} from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/UploadMaterialPics/UploadMaterialPics.js
+  10,32: import { WMImagePicker } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Visit/components/PicUpload.js
+  6,32: import { WMImagePicker } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Visit/helper/RequestHelper.js
+  4,39: import { WMFileUploader, WMFS } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Visit/helper/utilHelper.js
+  1,23: import { WMFS } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Visit/VisitComponents/PicUpload.js
+  8,38: import { WMImagePicker, WMFS } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Visit/VisitHelper.js
+  3,39: import { WMFileUploader, WMFS } from 'NativeModules';
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/WDC/Map/index.js
+  26,5:     NativeModules,
+  29,27: const { WMEnvironment } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/WebviewWrapper/WebviewWrapper.js
+  1,23: import ReactNative, { NativeModules } from 'react-native';
+  18,47: const { BEEIMManagerBridge, SchemeManager } = NativeModules;
+
+/Users/macmeng/Project/waimai/waimai_mfe_bee/app/views/Workbench/Workbench.js
+  1,23: import ReactNative, { NativeModules } from 'react-native';
+  18,27: const { QRCodeScanner } = NativeModules;
