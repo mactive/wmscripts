@@ -44,22 +44,6 @@
         "request": "launch",
         "name": "daycount",
         "program": "${workspaceFolder}/crash/daycount.js"
-      },
-      {
-        "name": "Current TS File",
-        "type": "node",
-        "request": "launch",
-        "args": [
-          "${relativeFile}"
-        ],
-        "runtimeArgs": [
-          "--nolazy",
-          "-r",
-          "ts-node/register"
-        ],
-        "sourceMaps": true,
-        "cwd": "${workspaceRoot}",
-        "protocol": "inspector",
       }
     ]
   }
