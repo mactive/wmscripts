@@ -19,7 +19,7 @@ function deepCopy(obj) {
         // 如果key是对象的自有属性
         if(obj.hasOwnProperty(key)) {
             // 递归调用深拷贝方法
-            copy[key] = deepClone(obj[key])
+            copy[key] = deepCopy(obj[key])
         }
     }
 

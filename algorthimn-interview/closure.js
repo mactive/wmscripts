@@ -58,7 +58,16 @@ for(var i = 1; i <= 5; i ++){
   // let使JS发生革命性的变化，让JS有函数作用域变为了块级作用域，用let后作用域链不复存在。代码的作用域以块级为单位
   // 相当于变成了 6个代码块
   for(let i = 1; i <= 5; i++){
+    console.log('11',i)
+
+    // setTimeout(function timer(){
+    //   console.log(i)
+    // },0)
+  }
+
+  for(var j = 1; j <= 5; j++){
     setTimeout(function timer(){
-      console.log(i)
+      console.log('-',j)
     },0)
   }
+
