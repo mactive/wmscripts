@@ -4,6 +4,7 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+  
     {
       "type": "chrome",
       "request": "launch",
@@ -26,24 +27,6 @@
       "request": "launch",
       "name": "CurrentJSFile",
       "program": "${file}"
-    },
-    {
-        "type": "node",
-        "request": "launch",
-        "name": "readLineSync",
-        "program": "${workspaceFolder}/mysql/readLineSync.js"
-      },
-      {
-        "type": "node",
-        "request": "launch",
-        "name": "Launch Program",
-        "program": "${workspaceFolder}/mysql/readcsv.js"
-      },
-      {
-        "type": "node",
-        "request": "launch",
-        "name": "daycount",
-        "program": "${workspaceFolder}/crash/daycount.js"
-      }
+    }
     ]
   }
