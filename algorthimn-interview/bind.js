@@ -1,21 +1,23 @@
 /**
  * 自己实现一个 bind
  * 返回一个function 然后继续用call向后传递
+ * 可以到bind并不是立即执行，而是返回一个新函数，且新函数的this的指向无法再次被修改，
  */
 Function.prototype.myBind = function (ctx, ...args) {
     return (...innerArgs) => this.call(ctx, ...args, ...innerArgs);
 };
 
 // test
-const a = {
+var a = {
     name: "name of a"
 };
-function test(...msg) {
+function test(...args) {
     console.log(this.name);
-    console.log(...msg);
+    console.log(...args);
 }
-const t = test.myBind(a, "hello");
-t("world");
+const tFunc = test.myBind(a, "hello");
+tFunc("world");
+
 
 
 // fun.call(thisArg, arg1, arg2, ...)
