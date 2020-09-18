@@ -4,13 +4,29 @@
 // 从 0 开始相加, 后一个数是前两个数之和
 // 时间复杂度O(2^n) 2的n次方
 
+/**
+ * 267914296
+ * fibonacci: 2685.0849609375ms
+ * fibonacci: 2.685s
+
+ * 267914296
+ * fibonacciDynamicEntre: 0.302978515625ms
+ * fibonacciDynamicEntre: 0.464ms
+ * 
+ * 
+ */
+const count  = 42
+console.time('fibonacci')
+
 const fibonacci = (n: number): number => {
     if (n === 0) return 0
     if (n === 1) return 1
-    return fibonacci(n - 1) + fibonacci(n - 2)
+    const res = fibonacci(n - 1) + fibonacci(n - 2)
+    return res 
 }
 
-// console.log(fibonacci(2))
+console.log(fibonacci(count))
+console.timeEnd('fibonacci')
 
 /**
  * 存储式的 fibnacci, 不是递归方式的
@@ -21,7 +37,7 @@ const fibonacciDynamic = (i: number, memo: number[] = []): number => {
     if (memo[i] === 0) {
         memo[i] = fibonacciDynamic(i - 1, memo) + fibonacciDynamic(i - 2, memo)
     }
-    console.log('memo i',memo[i])
+    // console.log('memo i',memo[i])
     return memo[i]
 }
 
@@ -33,6 +49,6 @@ const fibonacciDynamicEntre = (n: number) => {
 
 return fibonacciDynamic(n, intArray );
 }
-
-console.log(fibonacciDynamicEntre(10))
-
+console.time('fibonacciDynamicEntre')
+console.log(fibonacciDynamicEntre(count))
+console.timeEnd('fibonacciDynamicEntre')

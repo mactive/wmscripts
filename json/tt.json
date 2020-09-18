@@ -1,0 +1,53 @@
+{
+    "applyInfo": [
+        {
+            "deliveryRateName": "美团配送（专/快/递）",
+            "deliveryRateFee": [
+                {
+                    "feeName": "分成",
+                    "fee": "1"
+                },
+                {
+                    "feeName": "保底",
+                    "fee": "2"
+                },
+                {
+                    "feeName": "平台使用费",
+                    "fee": "3"
+                }
+            ],
+            "startTime": 1599696000,
+            "endTime": 1602720000
+        },
+        {
+            "deliveryRateName": "自配",
+            "deliveryRateFee": [
+                {
+                    "feeName": "分成",
+                    "fee": "4"
+                },
+                {
+                    "feeName": "保底",
+                    "fee": "5"
+                },
+                {
+                    "feeName": "平台使用费",
+                    "fee": "6"
+                }
+            ],
+            "startTime": 1600473600,
+            "endTime": 1601942400
+        },
+        {
+            "deliveryRateName": "企客"
+        }
+    ],
+    "additionalInfo": {
+        "otherPlatformOperations": "a",
+        "averageDailyFlow": "123",
+        "averageDailyOrderNumber": "456",
+        "averageCustomerPrice": "789",
+        "expectedPlatformOperations": "b"
+    },
+    "reason": "申请理由。。"
+}

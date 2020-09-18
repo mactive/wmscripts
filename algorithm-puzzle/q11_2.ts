@@ -11,6 +11,6 @@ function * fibonacciQ(n:number):IterableIterator<number>{
 }
 
 // 扩展运算符(spread)是三个点(...),它好比rest参数的逆运算,将一个数组转为用逗号分隔的参数序列
-let [start,...first10] = fibonacciQ(10);
+let [start,...first10] = fibonacciQ(100);
 console.log(first10)
 
