@@ -20,12 +20,12 @@ var keysData = {
     applyInfo_1_startTime:"1600473600",
     applyInfo_1_endTime:"1601942400",
     applyInfo_2_deliveryRateName:"企客",
-    // additionalInfo_otherPlatformOperations:"a",
-    // additionalInfo_averageDailyFlow:"123",
-    // additionalInfo_averageDailyOrderNumber:"456",
-    // additionalInfo_averageCustomerPrice:"789",
-    // additionalInfo_expectedPlatformOperations:"b",
-    // reason:"申请理由。。",
+    additionalInfo_otherPlatformOperations:"a",
+    additionalInfo_averageDailyFlow:"123",
+    additionalInfo_averageDailyOrderNumber:"456",
+    additionalInfo_averageCustomerPrice:"789",
+    additionalInfo_expectedPlatformOperations:"b",
+    reason:"申请理由。。",
 }
 
 let options = []
@@ -56,10 +56,42 @@ function parseJsonWrapper(keyData) {
     options.forEach(item => {
         res = mergeDeep(res, item)
     })
+    console.dir(JSON.stringify(res))
+    // let result = {}
+   
+    dep(res)
     console.dir(res)
-    // let reuslt = {}
-    let reuslt = object2Array(res, {})
-    console.dir(result)
+}
+
+
+
+let curObj = null;
+let curKey = '';
+
+const dep = (obj) => {
+ const keys = Object.keys(obj);
+
+ const allKeyIsNum = keys.every((k) => {
+   return !Number.isNaN(Number(k)) && typeof Number(k) === 'number';
+ })
+
+ if (allKeyIsNum) {
+   const map = keys.map((k) => {
+     return obj[k];
+   })
+   curObj[curKey] = map;
+ }
+
+ for (const key in obj) {
+   curObj = obj;
+   if (obj.hasOwnProperty(key)) {
+     curKey = key;
+
+     if (toString.call(obj[key]) === "[object Object]") {
+       dep(obj[key]);
+     }
+   }
+ }
 }
 
 
@@ -90,9 +122,7 @@ function mergeDeep(target, source) {
 
 function object2Array(jsonData, result) {
     if(!isObject(jsonData)){
-        return jsonData
-        // result[key] = value
-        // return result
+        return
     }
     for (const [key, value] of Object.entries(jsonData)) {
         if(!isObject(value)){
@@ -100,17 +130,19 @@ function object2Array(jsonData, result) {
             return result
         }
         const intKey = Object.keys(value)[0]
-        result[key] = []
         if(isNaN(parseInt(intKey, 10))) {
-            result[key] = object2Array(value, result)
+            result[key] = {}
+            result[key] = object2Array(value, result[key])
         } else {
+            result[key] = []
+
             for(const seq in value) {
                 let tt = object2Array(value[seq], result[key])
                 result[key].push(tt)
             }
         }
     }
-    // return result
+    return result
 }
 
 
