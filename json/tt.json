@@ -1,7 +1,7 @@
 {
     "applyInfo": [
         {
-            "deliveryRateName": "美团配送（专/快/递）",
+            "deliveryRateName": "MT配送（专/快/递）",
             "deliveryRateFee": [
                 {
                     "feeName": "分成",

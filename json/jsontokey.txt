@@ -1,4 +1,4 @@
-applyInfo_0_deliveryRateName:"美团配送（专/快/递）"
+applyInfo_0_deliveryRateName:"MT配送（专/快/递）"
 applyInfo_0_deliveryRateFee_0_feeName:"分成"
 applyInfo_0_deliveryRateFee_0_fee:"1"
 applyInfo_0_deliveryRateFee_1_feeName:"保底"
