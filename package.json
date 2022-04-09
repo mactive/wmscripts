@@ -11,7 +11,7 @@
     "linebyline": "^1.3.0",
     "lodash": "^4.13.1",
     "md5": "^2.0.0",
-    "moment": "^2.20.1",
+    "moment": "^2.29.2",
     "mysql": "^2.18.1",
     "n-readlines": "^1.0.0",
     "read-each-line-sync": "^1.0.5",
